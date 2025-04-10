@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T0m3YY - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="particles.css">
+    <link rel="stylesheet" href="interest.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span class="loader-text">T0m3YY</span>
+            <div class="loader-spinner"></div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="loader-subtitle">Developer Portfolio</div>
+            <div class="loader-icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-raspberry-pi"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">T0m3YY</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#tech-radar">Tech Radar</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section with Parallax -->
+    <!-- Home Section with Animated Background -->
+    <section id="home" class="parallax-container">
+        <div class="animated-bg">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+        </div>
+        <div class="parallax-content">
+            <h1 class="glitch-text" data-text="T0m3YY">T0m3YY</h1>
+            <h2 class="typewriter">Developer. Hacker. Tech Explorer.</h2>
+            <a href="#portfolio" class="cta-button pulse">View My Work</a>
+        </div>
+    </section>
+    <div class="parallax-bg"></div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project cards will be added here dynamically with JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Radar Section -->
+    <section id="tech-radar" class="section">
+        <div class="container">
+            <h2 class="section-title">Tech Radar</h2>
+            <div class="tech-categories">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="ai">AI & ML</button>
+                    <button class="category-tab" data-category="webdev">Web Dev</button>
+                    <button class="category-tab" data-category="security">Security</button>
+                    <button class="category-tab" data-category="hardware">Hardware</button>
+                </div>
+                <div class="tech-grid">
+                    <!-- Tech cards will be added here dynamically with JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase-section section">
+        <!-- Particles Background -->
+        <div id="particles-js"></div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-element float-1"></div>
+        <div class="floating-element float-2"></div>
+        <div class="floating-element float-3"></div>
+        <div class="floating-element float-4"></div>
+        
+        <div class="container showcase-container">
+            <h2 class="section-title" style="color: var(--light-color);">Tech Showcase</h2>
+            
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <div class="showcase-card-icon">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3 class="showcase-card-title">3D Transformations</h3>
+                    <p class="showcase-card-desc">Exploring the capabilities of CSS 3D transforms and perspective properties to create immersive interfaces.</p>
+                    <a href="#interest-3d" class="interactive-btn">Explore Effect</a>
+                </div>
+                
+                <div class="showcase-card">
+                    <div class="showcase-card-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="showcase-card-title">Particle Systems</h3>
+                    <p class="showcase-card-desc">Interactive particle systems that respond to user movement, creating dynamic and engaging backgrounds.</p>
+                    <a href="#interest-particles" class="interactive-btn">Explore Effect</a>
+                </div>
+                
+                <div class="showcase-card">
+                    <div class="showcase-card-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="showcase-card-title">Parallax Scrolling</h3>
+                    <p class="showcase-card-desc">Multi-layered parallax effects that create depth and dimension as users scroll through content.</p>
+                    <a href="#interest-parallax" class="interactive-btn">Explore Effect</a>
+                </div>
+                
+                <!-- Morphing card removed as requested -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section with Visual Effects -->
+    <section id="interests" class="section interests-section">
+        <div class="container">
+            <h2 class="section-title">My Interests</h2>
+            <p class="section-subtitle">Explore the technologies and concepts that fascinate me</p>
+            
+            <!-- Cybersecurity Interest - Particle Effect -->
+            <div id="interest-particles" class="interest-item">
+                <div class="interest-content">
+                    <div class="interest-text">
+                        <h3 class="interest-title">Cybersecurity</h3>
+                        <p>My passion for cybersecurity drives me to explore the complex world of digital threats and defenses. I'm particularly interested in penetration testing, network security, and cryptography.</p>
+                        <p>Some areas I focus on:</p>
+                        <ul>
+                            <li>Network security and traffic analysis</li>
+                            <li>Web application security testing</li>
+                            <li>Cryptographic systems and implementation</li>
+                            <li>Social engineering awareness and prevention</li>
+                        </ul>
+                    </div>
+                    <div class="interest-visual" id="interest-visual-particles">
+                        <div class="security-particles-container">
+                            <!-- This will be filled with particles via JS -->
+                            <div class="security-info">
+                                <span>Scanning network: 192.168.1.0/24</span>
+                                <span>Ports open: 22, 80, 443</span>
+                                <span>Encryption: AES-256-GCM</span>
+                                <span>Status: Secure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quantum Levitation - 3D Transform Effect -->
+            <div id="interest-3d" class="interest-item">
+                <div class="interest-content reverse">
+                    <div class="interest-visual" id="interest-visual-quantum">
+                        <div class="scene">
+                            <div class="quantum-cube">
+                                <div class="cube-face front">
+                                    <i class="fas fa-magnet"></i>
+                                </div>
+                                <div class="cube-face back">
+                                    <i class="fas fa-atom"></i>
+                                </div>
+                                <div class="cube-face right">
+                                    <i class="fas fa-temperature-low"></i>
+                                </div>
+                                <div class="cube-face left">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="cube-face top">
+                                    <i class="fas fa-microscope"></i>
+                                </div>
+                                <div class="cube-face bottom">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quantum-info">
+                        <h4>Quantum Levitation</h4>
+                        <p>A superconductor cooled below its critical temperature (Tc) expels magnetic fields, creating the Meissner effect.</p>
+                    </div>
+                </div>
+                <div class="interest-text">
+                    <h3 class="interest-title">Quantum Levitation</h3>
+                    <p>The intersection of physics and materials science creates the fascinating phenomenon of quantum levitation. When superconductors are cooled to extreme temperatures, they can float in magnetic fields.</p>
+                    <p>This quantum state locks objects in mid-air through flux pinning, opening doors to revolutionary applications in transportation and energy.</p>
+                    <div class="interest-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-temperature-low"></i>
+                            <span>Superconductivity</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Quantum Computing</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-train"></i>
+                            <span>Maglev Transport</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Zero Resistance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Software Development - Parallax Effect -->
+            <div id="interest-parallax" class="interest-item parallax-interest">
+                <!-- <div class="parallax-decoration">
+                    <div class="parallax-shape shape-1"></div>
+                    <div class="parallax-shape shape-2"></div>
+                    <div class="parallax-shape shape-3"></div>
+                </div> -->
+                <div class="interest-content centered">
+                    <div class="interest-text">
+                        <h3 class="interest-title">Software Development</h3>
+                        <p>Building software is both an art and a science. I enjoy creating applications that solve real-world problems and exploring new programming paradigms and languages.</p>
+                        <p>My approach to development focuses on clean, maintainable code with a strong emphasis on user experience. I believe that the best software is not only functional but also intuitive and enjoyable to use.</p>
+                        <div class="dev-tools">
+                            <div class="dev-tool">
+                                <i class="fab fa-python"></i>
+                                <span class="dev-tool-name">Python</span>
+                            </div>
+                            <div class="dev-tool">
+                                <i class="fab fa-js"></i>
+                                <span class="dev-tool-name">JavaScript</span>
+                            </div>
+                            <div class="dev-tool">
+                                <i class="fab fa-react"></i>
+                                <span class="dev-tool-name">React</span>
+                            </div>
+                            <div class="dev-tool">
+                                <i class="fab fa-node-js"></i>
+                                <span class="dev-tool-name">Node.js</span>
+                            </div>
+                            <div class="dev-tool">
+                                <i class="fas fa-database"></i>
+                                <span class="dev-tool-name">SQL/NoSQL</span>
+                            </div>
+                            <div class="dev-tool">
+                                <i class="fab fa-git-alt"></i>
+                                <span class="dev-tool-name">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Emerging Technology - Without Morphing Effect -->
+            <div id="interest-morphing" class="interest-item">
+                <div class="interest-content">
+                    <div class="interest-text">
+                        <h3 class="interest-title">Emerging Technology</h3>
+                        <p>I'm constantly exploring the cutting edge of technology as it reshapes our world. From AI to IoT, I'm fascinated by innovations that push boundaries and create new possibilities.</p>
+                        <p>Staying ahead of technological trends helps me anticipate changes and adapt quickly to solve tomorrow's challenges.</p>
+                        <div class="interest-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Artificial Intelligence</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-server"></i>
+                                <span>Edge Computing</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-vr-cardboard"></i>
+                                <span>AR/VR Experiences</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-link"></i>
+                                <span>Blockchain</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-visual">
+                        <div class="tech-container">
+                            <div class="tech-icons">
+                                <div class="tech-icon-item">
+                                    <i class="fas fa-brain"></i>
+                                    <span class="tech-icon-name">AI</span>
+                                    <span class="tech-icon-desc">Machine learning and neural networks</span>
+                                </div>
+                                <div class="tech-icon-item">
+                                    <i class="fas fa-microchip"></i>
+                                    <span class="tech-icon-name">IoT</span>
+                                    <span class="tech-icon-desc">Connected devices and sensors</span>
+                                </div>
+                                <div class="tech-icon-item">
+                                    <i class="fas fa-vr-cardboard"></i>
+                                    <span class="tech-icon-name">AR/VR</span>
+                                    <span class="tech-icon-desc">Immersive digital experiences</span>
+                                </div>
+                                <div class="tech-icon-item">
+                                    <i class="fas fa-link"></i>
+                                    <span class="tech-icon-name">Blockchain</span>
+                                    <span class="tech-icon-desc">Decentralized applications</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300" alt="T0m3YY">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm T0m3YY, a passionate developer and technology enthusiast. I'm constantly exploring new technologies and expanding my skills in various domains of computer science.</p>
+                    <p>Currently, I'm focusing on enhancing my knowledge in cybersecurity, working with Raspberry Pi projects, and diving deeper into AI and machine learning.</p>
+                    
+                    <h3>Skills</h3>
+                    <div class="skills-container">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">HTML/CSS</span>
+                        <span class="skill-badge">Cybersecurity</span>
+                        <span class="skill-badge">Raspberry Pi</span>
+                        <span class="skill-badge">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-links">
+                    <a href="https://github.com/T0m3YY" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:your-email@example.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                    <a href="#" class="contact-link">
+                        <i class="fab fa-discord"></i> Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 T0m3YY. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+    <script src="interest.js"></script>
+
+
+</body>
+</html>
