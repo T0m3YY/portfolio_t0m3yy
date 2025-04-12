@@ -463,3 +463,35 @@
         display: none;
     }
 }
+
+/* Voeg deze regels toe om horizontaal scrollen te voorkomen */
+.interest-item {
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.interest-content {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Verbeter responsiviteit voor mobiele apparaten */
+@media screen and (max-width: 768px) {
+    .interest-item {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .parallax-interest .interest-content {
+        padding: 20px;
+    }
+    
+    .interest-visual {
+        max-width: 100%;
+    }
+}

@@ -9,6 +9,23 @@
     --transition: all 0.3s ease;
 }
 
+/* Voeg deze regels toe aan het begin van je CSS bestand of direct na de root variabelen */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    max-width: 100vw;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
